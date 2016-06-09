@@ -1,0 +1,10 @@
+I can notify you about deadline from Trello. To use notifications add due date to your task and mark it with label named "@notify -1", where "-1" is amount of hours.
+
+For example: if due date is 2016-03-21 22:00 and label "@notify -3" you will be notified at 2016-03-21 19:00.
+
+/help - this text
+/login - login to Trello
+/token - set Trello token
+/stop - remove token and stop bot
+
+Support and feedback: https://github.com/Kirill89/trello-telegram-js

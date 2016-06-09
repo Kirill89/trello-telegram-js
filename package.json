@@ -1,0 +1,26 @@
+{
+  "name": "trello-telegram-js",
+  "version": "1.0.0",
+  "description": "Telegram bot server to notify about deadlines in Trello",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "start": "node index.js",
+    "forever": "pm2 start index.js --instances 1 --name trello-telegram-js --log app.log",
+    "restart": "pm2 restart trello-telegram-js"
+  },
+  "author": "Kirill Efimov <kirill89@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~3.4.0",
+    "got": "~6.3.0",
+    "js-yaml": "~3.6.1",
+    "lodash": "~4.13.1",
+    "moment": "~2.13.0",
+    "nedb": "~1.8.0",
+    "node-telegram-bot-api": "~0.23.3"
+  },
+  "devDependencies": {
+    "eslint": "~2.11.1"
+  }
+}

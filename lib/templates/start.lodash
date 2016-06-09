@@ -1,0 +1,5 @@
+Follow next url to get authentication token:
+
+https://trello.com/1/authorize?expiration=never&scope=read&response_type=token&name=<%= encodeURIComponent(name) %>&key=<%= key %>
+
+When you will get token, use "/token [YOUR_TOKEN]" to activate bot.

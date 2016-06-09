@@ -1,0 +1,4 @@
+telegram_token: YOUR TOKEN HERE
+trello_key: YOUR KEY HERE
+trello_app_name: Telegram notify bot
+trello_check_interval: 300000 # 5 minutes
